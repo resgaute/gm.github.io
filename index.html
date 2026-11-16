@@ -223,11 +223,11 @@ button { font: inherit; }
 </div>
 <script>
 (() => {
-  const whatsappNumber = "5531920106065";
+  const whatsappNumber = "5511967282590";
   const openWhatsApp = (service = "") => {
     const subject = service ? ` sobre: ${service}` : "";
     const message = `Olá! Gostaria de solicitar atendimento${subject}.`;
-    window.open(`https://wa.me/${5531920106065}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+    window.open(`https://wa.me/${5511967282590}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
   };
   document.querySelectorAll("[data-whatsapp]").forEach((button) => button.addEventListener("click", () => openWhatsApp(button.dataset.service || "")));
   document.querySelectorAll("[data-year]").forEach((node) => node.textContent = new Date().getFullYear());
